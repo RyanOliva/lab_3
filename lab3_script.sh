@@ -8,5 +8,5 @@ echo "Please enter file name:"
 read numOne
 echo "Please enter a regular expression:"
 read numTwo
-egrep 'geocities.com' $numOne >> email_results.txt
+egrep 'geocities.com$' $numOne > email_results.txt
 
